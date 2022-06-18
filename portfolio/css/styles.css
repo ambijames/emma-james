@@ -1596,7 +1596,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: var(--color-1);
+    color: #5ca6fb;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1849,7 +1849,7 @@ mark {
 }
 
 hr {
-    border: solid var(--color-border);
+    border: solid white;
     border-width: .1rem 0 0;
     clear: both;
     margin: var(--vspace-2) 0 calc(var(--vspace-2) - .1rem);
@@ -2297,7 +2297,7 @@ input[type="button"] {
     -moz-osx-font-smoothing: grayscale;
     border-radius: var(--border-radius);
     background-color: var(--color-btn);
-    border: 0.2rem solid var(--color-btn);
+    /* border: 0.2rem solid var(--color-btn); */
 }
 
 .btn:hover, 
@@ -2323,8 +2323,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: var(--color-btn-primary);
-    border-color: var(--color-btn-primary);
+    background: #5ca6fb;
+    /* border-color: orange; */
     color: var(--color-btn-primary-text);
 }
 
@@ -3529,7 +3529,7 @@ input[type="button"].btn--primary:focus {
     text-align: center;
     height: 1px;
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: white;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     position: absolute;
@@ -3776,7 +3776,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-about {
     --color-border: var(--color-gray-16);
-    background-color: var(--color-gray-17);
+    background-color: #002642;
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
     color: rgba(255, 255, 255, 0.4);
@@ -3790,7 +3790,7 @@ input[type="button"].btn--primary:focus {
 .s-about__pic {
     width: var(--vspace-5);
     height: var(--vspace-5);
-    border: 1.6rem solid rgba(255, 255, 255, 0.02);
+    border: 1rem solid rgba(255, 255, 255, 0.02);
     border-radius: 50%;
 }
 
@@ -3808,7 +3808,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-about__content-bottom .btn--download {
-    background-color: white;
+    background-color: #FDFFFC;
     border-color: white;
     color: black;
     margin-right: 0;
@@ -3882,7 +3882,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-resume {
-    background-color: white;
+    background-color: #FDFFFC;
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-4);
 }
@@ -4392,7 +4392,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: var(--color-gray-18);
+    background-color: #002642;
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-3_5);
 }
